@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.saber.drawabletest.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hello World!"
+        android:id="@+id/editText"
+        android:background="@drawable/layer_list"/>
+
+    <Button
+        android:id="@+id/btn_level_list"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="level-list drawable"
+        android:background="@drawable/level_list"/>
+
+    <TextView
+        android:id="@+id/tv_transition_drawable"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="TransitionDrawable"
+        android:background="@drawable/transition_drawable"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="InsetDrawable"
+        android:background="@drawable/inset_drawable"/>
+
+    <TextView
+        android:id="@+id/scale_drawable"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="ScaleDrawable"
+        android:background="@drawable/scale_drawable"/>
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_clip_drawable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/clip_drawable"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ClipDrawable"
+            android:gravity="center"
+            android:background="@drawable/clip_drawable_bac_style"
+            />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
